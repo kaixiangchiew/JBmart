@@ -15,7 +15,7 @@
 ***
 
 # Project Background
-JBmart, an e-commerce company founded in 2018, sells popular electronics like Macbook, Samsung products. Thankfully, COVID-19 is behind us, but the insights from those years remain valuable. I'm working with the Head of Operations to take a retrospective look at our sales and loyalty program data during the peak Covid years. Our final deliverable is a [company-wide town hall presentation](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1) that aims to provide insights and recommendations to sales, product, and marketing team.
+JBmart, an e-commerce company founded in 2018, sells popular electronics like Macbook, Samsung products. Thankfully, COVID-19 is behind us, but the insights from those years remain valuable. I'm working with the Head of Operations to take a retrospective look at our sales and loyalty program data during the peak Covid years. Our final deliverable is a <a href="https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1" target="_blank">company-wide town hall presentation</a> that aims to provide insights and recommendations to the sales, product, and marketing teams.
 
 ![email_exchange](https://github.com/user-attachments/assets/cf8ffb2c-f385-4fe4-9fdf-412f1084fc31)
 
