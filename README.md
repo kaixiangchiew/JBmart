@@ -24,7 +24,7 @@ JBmart’s sales analysis of 78k records across 2019-2022 observed an initial re
 
 # Dataset Structure
 
-JBmart’s database consists of four tables containing orders, order statuses, customers, and geographic information with a row count of 78,847 order records. 
+JBmart’s database consists of four tables containing orders, order statuses, customers, and geographic information with a row count of 78,846 order records. 
 
 Below is the Entity Relationship Diagram (ERD).
 
@@ -125,12 +125,12 @@ The JBmart company-wide town hall presentation walks through the insights and le
 
 # Appendix: Data Cleaning
 
-We cleaned **108,127** raw records down to **78,849** using the C-L-E-A-N framework:
+We cleaned **108,127** raw order records down to **78,846** using the C-L-E-A-N framework:
 * **C - Conceptualize**: Defined data grain, focused on critical fields (purchase_date, usd_price, customer_id). **C also stands for Copy**, keep a copy of raw data.
 * **L - Locate Solvable Issues**: Duplicates, Formatting, Consistency. Removed duplicates with windows function, corrected date formats, standardized product names, and fixed inconsistent country code.
 * **E - Evaluate Unsolvable Issues**: Missing and Nonsensical data. Impute NULL values (usd_price), measure % impacted by NULLs to decide whether column is usable, set nonsensical dates (e.g., delivery_date < purchase_date) to NULL.
-* A - **Augment with Calculated Fields or Supplementary Info** from another source. Created days_to_ship and days_to_delivery and added region mappings for better geographic insights.
-* N - **Note & Document**: Logged all issues and resolutions in a **changelog Excel file** for transparency.
+* **A - Augment with Calculated Fields or Supplementary Info** from another source. Created days_to_ship and days_to_delivery and added region mappings for better geographic insights.
+* **N - Note & Document**: Logged all issues and resolutions in a **changelog Excel file** for transparency.
 
 This process ensured the dataset is clean, structured, and ready for analysis.
 
