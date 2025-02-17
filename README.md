@@ -8,6 +8,7 @@
     - [Product Performance](#product-performance)
     - [Loyalty Program Performance](#loyalty-program-performance)
 - [Lessons and Recommendations](#lessons-and-recommendations)
+- [Appendix: Data Cleaning](#appendix-data-cleaning)
 
 ***
 
@@ -113,4 +114,20 @@ Targeted SQL queries addressing **key business questions** can be found [here](j
 3. **Brand strength doesn’t guarantee sales.**  Despite strong branding, iPhones and Bose Headphones underperformed. We recommend partnering with official brands for promotions to drive higher sales. Additionally, running targeted marketing campaigns emphasizing unique value propositions, such as extended warranty or premium customer support, can help attract more buyers.
 4. **Timely product launches drive growth.** The Samsung Webcam’s success shows the value of launching the right products at the right time. We recommend monitor demand trends and expand into hybrid work solutions like 4K webcams and wireless conference speakers.
 5. **Revenue is overly reliant on a few products.**  With 84% of units sold coming from just three products, we recommend diversifying into adjacent categories. For example, if gaming monitor demand declines, expanding into gaming peripherals like keyboards, mice, or streaming equipment allows us to capture the same target audience while reducing reliance on a few key products. 
-6. **Loyalty members are a resilient and high-value revenue source.** Members now outspend non-members by about $30 per order and contribute to more than half of total revenue, proving their value. To increase sign-ups, we recommend offering first-purchase discounts. To increase retention, we recommend implementing a members-only pricing. 
+6. **Loyalty members are a resilient and high-value revenue source.** Members now outspend non-members by about $30 per order and contribute to more than half of total revenue, proving their value. To increase sign-ups, we recommend offering first-purchase discounts. To increase retention, we recommend implementing a members-only pricing.
+
+# Appendix: Data Cleaning
+
+We cleaned **108,127** raw records down to **78,849** using the C-L-E-A-N framework:
+* **C - Conceptualize**: Defined data grain, focused on critical fields (purchase_date, usd_price, customer_id). **C also stands for Copy**, keep a copy of raw data.
+* **L - Locate Solvable Issues**: Duplicates, Formatting, Consistency. Removed duplicates with windows function, corrected date formats, standardized product names, and fixed inconsistent country code.
+* **E - Evaluate Unsolvable Issues**: Missing and Nonsensical data. Impute NULL values (usd_price), measure % impacted by NULLs to decide whether column is usable, set nonsensical dates (e.g., delivery_date < purchase_date) to NULL.
+* A - **Augment with Calculated Fields or Supplementary Info** from another source. Created days_to_ship and days_to_delivery and added region mappings for better geographic insights.
+* N - **Note & Document**: Logged all issues and resolutions in a **changelog Excel file** for transparency.
+
+This process ensured the dataset is clean, structured, and ready for analysis.
+
+![data_cleaning_changelog_excel](https://github.com/user-attachments/assets/30cdb437-292d-400d-85e1-88890d0eb6d3)
+
+
+
