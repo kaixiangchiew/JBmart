@@ -7,8 +7,7 @@
     - [Monthly Sales Trends and Growth Rates](#monthly-sales-trends-and-growth-rates)
     - [Product Performance](#product-performance)
     - [Loyalty Program Performance](#loyalty-program-performance)
-- [Lessons](#lessons)
-- [Recommendations](#recommendations)
+- [Lessons and Recommendations](#lessons-and-recommendations)
 
 ***
 
@@ -20,7 +19,21 @@ JBmart, an e-commerce company founded in 2018, sells popular electronics like Ma
 # Executive Summary
 JBmart’s sales analysis of 78k records across 2019-2022 observed an initial revenue surge from $2.7M in 2019 to $7.2M in 2020 (+168% YoY), driven by pandemic-fueled demand, followed by a steady decline post-vaccine rollout, with revenue dropping 42% in 2022. Our findings highlight the temporary nature of pandemic-driven growth, the importance of adapting to shifting consumer spending habits, and the risks of relying on a concentrated product portfolio. Additionally, our loyalty program has shown strong engagement, with member revenue share growing from 5% in 2019 to 59% in early 2022, though a slight decline in late 2022 suggests the need for further enhancements. Moving forward, diversification of our product mix and strengthening our loyalty program will be key to long-term stability and growth.  
 
+# Dataset Structure
+
+JBmart’s database consists of four tables containing orders, order statuses, customers, and geographic information with a total row count of 78,847 records. 
+
+Below is the Entity Relationship Diagram (ERD).
+
+
 ![entity relationship diagram](https://github.com/user-attachments/assets/0b1882e3-68be-4895-9dfa-a545fc626835)
+
+A final deliverable Tableau Story titled JBmart Company-Wide Town Hall : What can we learn from Covid? can be viewed [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). 
+
+SQL queries for data cleaning can be found here.
+
+
+Targeted SQL queries addressing key business questions can be found here. 
 
 # Insights Deep-Dive
 
@@ -51,7 +64,7 @@ JBmart’s sales analysis of 78k records across 2019-2022 observed an initial re
 * It was mostly bad news **in 2021 as revenue starts to decline** as vaccines rolled out and post-pandemic market conditions took place. 
 * **Suez Canal blocked for 6 days worsened existing supply chain disruptions**, causing shipping delays, inventory shortages, and rising logistics costs, impacting our ability to meet demand.
 * **Apple’s iOS 14.5 privacy update “Ask App Not to Track”** limited ad tracking, reducing digital advertising efficiency, increasing customer acquisition costs, and contributing to the revenue decline.
-* Despite the revenue decline **in 2022, avg monthly revenue remained at $310K+, still outperforming $220K+ in 2019**, higher than Pre-Covid baseline. But what about the data for most recent months? 
+* Despite the revenue decline **in 2022, avg monthly revenue remained at $310K+, still outperforming $220K+ in 2019**, higher than Pre-Covid baseline. However, revenue from most recent months in 2022 closely resembles that of 2019. Can we compare them side-by-side for further analysis? 
 
 ### Compare Pre-Covid 2019 and Post-Covid 2022
 
@@ -94,6 +107,11 @@ JBmart’s sales analysis of 78k records across 2019-2022 observed an initial re
 * After Q3 2021, we see a clear shift—**members are now outspending non-members by about $30 per order** ($247 vs. $218).
 * One key takeaway here is that while non-member AOV is declining, **members are proving to be a more resilient revenue source.**
 
+# Lessons and Recommendations
 
-
-
+1. **Spending patterns shift.** Post-pandemic, consumers moved from high-ticket items like laptops to lower-cost essentials like charging cables. To capture both markets, we recommend bundle accessories with big-ticket items. For example, offering laptop buyers discounts on Samsung Charging Cable Packs.
+2. **Pandemic-driven demands were temporary.** The 2020 laptop boom was short-lived, highlighting the need for data-driven forecasting to optimize inventory planning. For example, if gaming monitor sales surge every Q4, we can stock up in Q3 and run targeted promotions ahead of peak demand to maximize sales while avoiding overstock risks.
+3. **Brand strength doesn’t guarantee sales.**  Despite strong branding, iPhones and Bose Headphones underperformed. We recommend partnering with official brands for promotions to drive higher sales. Additionally, running targeted marketing campaigns emphasizing unique value propositions, such as extended warranty or premium customer support, can help attract more buyers.
+4. **Timely product launches drive growth.** The Samsung Webcam’s success shows the value of launching the right products at the right time. We recommend monitor demand trends and expand into hybrid work solutions like 4K webcams and wireless conference speakers.
+5. **Revenue is overly reliant on a few products.**  With 84% of units sold coming from just three products, we recommend diversifying into adjacent categories. For example, if gaming monitor demand declines, expanding into gaming peripherals like keyboards, mice, or streaming equipment allows us to capture the same target audience while reducing reliance on a few key products. 
+6. **Loyalty members are a resilient and high-value revenue source.** Members now outspend non-members by about $30 per order and contribute to more than half of total revenue, proving their value. To increase sign-ups, we recommend offering first-purchase discounts. To increase retention, we recommend implementing a members-only pricing. 
