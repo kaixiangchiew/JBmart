@@ -50,7 +50,7 @@ Below is the Entity Relationship Diagram (ERD).
 ![yearly_aov_bar](https://github.com/user-attachments/assets/7ab81816-a970-48d2-95e8-ac06f69e6d9c)
 
 * **Consumers spent $70 more during 1st year Covid.** AOV was rising from $226 to $296 as consumers spent more on high-ticket items like laptops.
-* **Post-pandemic, AOV is almost back to Pre-Covid level**, dropping to $230 in 2022 as spending shifted toward smaller-ticket essential items like charging cable, signalling a return to pre-Covid buying behavior.
+* **Post-pandemic, AOV is almost back to Pre-Covid level**, dropping to $230 in 2022 as spending shifted toward smaller-ticket essential items like charging cable, signalling a return to Pre-Covid buying behavior.
 
 ## Monthly Sales Trends and Growth Rates
 
