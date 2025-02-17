@@ -15,7 +15,7 @@
 ***
 
 # Project Background
-JBmart, an e-commerce company founded in 2018, sells popular electronics like Macbook, Samsung products. Thankfully, COVID-19 is behind us, but the insights from those years remain valuable. I'm working with the Head of Operations to take a retrospective look at our sales and loyalty program data during the peak Covid years. Our final deliverable is a company-wide town hall presentation that aims to provide insights and recommendations to sales, product, and marketing team.
+JBmart, an e-commerce company founded in 2018, sells popular electronics like Macbook, Samsung products. Thankfully, COVID-19 is behind us, but the insights from those years remain valuable. I'm working with the Head of Operations to take a retrospective look at our sales and loyalty program data during the peak Covid years. Our final deliverable is a [company-wide town hall presentation](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1) that aims to provide insights and recommendations to sales, product, and marketing team.
 
 ![email_exchange](https://github.com/user-attachments/assets/cf8ffb2c-f385-4fe4-9fdf-412f1084fc31)
 
@@ -29,6 +29,10 @@ JBmart’s database consists of four tables containing orders, order statuses, c
 Below is the Entity Relationship Diagram (ERD).
 
 ![entity relationship diagram](https://github.com/user-attachments/assets/0b1882e3-68be-4895-9dfa-a545fc626835)
+
+* SQL Data Cleaning Queries: [View SQL Scripts](jbmart_data_cleaning.sql)
+* SQL Targeted Business Question Queries: [View SQL Scripts](jbmart_targeted_business_questions.sql)
+* Data Cleaning Changelog: [Download Excel Log](jbmart_data_cleaning_changelog.xlsx)
 
 # Insights Deep-Dive
 
@@ -104,7 +108,7 @@ Below is the Entity Relationship Diagram (ERD).
 
 # Lessons and Recommendations
 
-1. **Spending patterns shift.** Post-pandemic, consumers moved from high-ticket items like laptops to lower-cost essentials like charging cables. To capture both markets, we recommend bundle accessories with big-ticket items. For example, offering laptop buyers discounts on Samsung Charging Cable Packs.
+1. **Spending patterns shift.** Post-pandemic, consumers moved from high-ticket items like laptops to lower-cost essentials like charging cables. To adapt, we recommend expanding lower-cost essentials accessories like laptop stands or wireless charging stations to meet evolving demand.
 2. **Pandemic-driven demands were temporary.** The 2020 laptop boom was short-lived, highlighting the need for data-driven forecasting to optimize inventory planning. For example, if gaming monitor sales surge every Q4, we can stock up in Q3 and run targeted promotions ahead of peak demand to maximize sales while avoiding overstock risks.
 3. **Brand strength doesn’t guarantee sales.**  Despite strong branding, iPhones and Bose Headphones underperformed. We recommend partnering with official brands for promotions to drive higher sales. Additionally, running targeted marketing campaigns emphasizing unique value propositions, such as extended warranty or premium customer support, can help attract more buyers.
 4. **Timely product launches drive growth.** The Samsung Webcam’s success shows the value of launching the right products at the right time. We recommend monitor demand trends and expand into hybrid work solutions like 4K webcams and wireless conference speakers.
@@ -130,16 +134,7 @@ We cleaned **108,127** raw records down to **78,849** using the C-L-E-A-N framew
 
 This process ensured the dataset is clean, structured, and ready for analysis.
 
+Below is a screenshot of the Data Cleaning Changelog Excel file that can be downloaded [here](jbmart_data_cleaning_changelog.xlsx).
+
 ![data_cleaning_changelog_excel](https://github.com/user-attachments/assets/30cdb437-292d-400d-85e1-88890d0eb6d3)
 
-# Appendix: Resource & Links
-
-Tableau Story: [Link to JBmart Town Hall Presentation](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1)
-
-SQL Data Cleaning Queries: [View SQL Scripts](jbmart_data_cleaning.sql)
-
-SQL Targeted Business Question Queries: [View SQL Scripts](jbmart_targeted_business_questions.sql)
-
-Data Cleaning Changelog: Download Excel Log
-
-Raw & Cleaned Datasets: View Files
