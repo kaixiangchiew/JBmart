@@ -28,12 +28,11 @@ Below is the Entity Relationship Diagram (ERD).
 
 ![entity relationship diagram](https://github.com/user-attachments/assets/0b1882e3-68be-4895-9dfa-a545fc626835)
 
-A final deliverable Tableau Story titled JBmart Company-Wide Town Hall : What can we learn from Covid? can be viewed [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). 
+A final deliverable Tableau Story titled **What can we learn from Covid?** can be viewed [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). 
 
-SQL queries for data cleaning can be found here.
+SQL queries for **data cleaning** can be found [here](jbmart_data_cleaning.sql).
 
-
-Targeted SQL queries addressing key business questions can be found here. 
+Targeted SQL queries addressing **key business questions** can be found [here](jbmart_targeted_business_questions.sql). 
 
 # Insights Deep-Dive
 
