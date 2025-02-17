@@ -2,12 +2,14 @@
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
+- [Dataset Structure](#dataset-structure)
 - [Insights Deep-Dive](#insights-deep-dive)
     - [Yearly Sales Trends and Growth Rates](#yearly-sales-trends-and-growth-rates)
     - [Monthly Sales Trends and Growth Rates](#monthly-sales-trends-and-growth-rates)
     - [Product Performance](#product-performance)
     - [Loyalty Program Performance](#loyalty-program-performance)
 - [Lessons and Recommendations](#lessons-and-recommendations)
+- [Final Deliverable Tableau Story](#final-deliverable-tableau-story)
 - [Appendix: Data Cleaning](#appendix-data-cleaning)
 
 ***
@@ -26,14 +28,7 @@ JBmart’s database consists of four tables containing orders, order statuses, c
 
 Below is the Entity Relationship Diagram (ERD).
 
-
 ![entity relationship diagram](https://github.com/user-attachments/assets/0b1882e3-68be-4895-9dfa-a545fc626835)
-
-A final deliverable Tableau Story titled **What can we learn from Covid?** can be viewed [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). 
-
-SQL queries for **data cleaning** can be found [here](jbmart_data_cleaning.sql).
-
-Targeted SQL queries addressing **key business questions** can be found [here](jbmart_targeted_business_questions.sql). 
 
 # Insights Deep-Dive
 
@@ -116,6 +111,14 @@ Targeted SQL queries addressing **key business questions** can be found [here](j
 5. **Revenue is overly reliant on a few products.**  With 84% of units sold coming from just three products, we recommend diversifying into adjacent categories. For example, if gaming monitor demand declines, expanding into gaming peripherals like keyboards, mice, or streaming equipment allows us to capture the same target audience while reducing reliance on a few key products. 
 6. **Loyalty members are a resilient and high-value revenue source.** Members now outspend non-members by about $30 per order and contribute to more than half of total revenue, proving their value. To increase sign-ups, we recommend offering first-purchase discounts. To increase retention, we recommend implementing a members-only pricing.
 
+# Final Deliverable Tableau Story
+
+The JBmart company-wide town hall presentation walks through the insights and lessons above can be found [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). Some extracts are presented below for easy reference. 
+
+![presentatation_title_tableau_story](https://github.com/user-attachments/assets/1ec2f40d-a1f4-42e1-8aec-36c82ec36685)
+![presentation_samsung_webcam_story](https://github.com/user-attachments/assets/00e14aa6-1a0d-4087-966c-032586a30416)
+![presentation_revenue_loyalty_story](https://github.com/user-attachments/assets/8a82ae32-2751-47ee-83f5-276c4d10a780)
+
 # Appendix: Data Cleaning
 
 We cleaned **108,127** raw records down to **78,849** using the C-L-E-A-N framework:
@@ -129,5 +132,14 @@ This process ensured the dataset is clean, structured, and ready for analysis.
 
 ![data_cleaning_changelog_excel](https://github.com/user-attachments/assets/30cdb437-292d-400d-85e1-88890d0eb6d3)
 
+# Appendix: Resource & Links
 
+Tableau Story: [Link to JBmart Town Hall Presentation](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1)
 
+SQL Data Cleaning Queries: [View SQL Scripts](jbmart_data_cleaning.sql)
+
+SQL Targeted Business Question Queries: [View SQL Scripts](jbmart_targeted_business_questions.sql)
+
+Data Cleaning Changelog: Download Excel Log
+
+Raw & Cleaned Datasets: View Files
