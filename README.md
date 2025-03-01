@@ -17,7 +17,9 @@
 ***
 
 # Project Background
-JBmart, an e-commerce company founded in 2018, sells popular electronics like Macbook, Samsung products. Thankfully, COVID-19 is behind us, but the insights from those years remain valuable. I'm working with the Head of Operations to take a retrospective look at our sales and loyalty program data during the peak Covid years. Our final deliverable is a [company-wide town hall presentation](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1) that aims to provide insights and recommendations to the sales, product, and marketing teams.
+JBmart, an e-commerce company founded in 2018, sells popular electronics like Macbook, Samsung products. Thankfully, COVID-19 is behind us, but the insights from those years remain valuable. I'm working with the Head of Operations to take a retrospective look at our sales and loyalty program data during the peak Covid years. Our final deliverable is a company-wide town hall presentation that aims to provide insights and recommendations to the sales, product, and marketing teams. 
+
+👉 View our final deliverable Tableau story presentation [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). 👀
 
 ![email_exchange](https://github.com/user-attachments/assets/cf8ffb2c-f385-4fe4-9fdf-412f1084fc31)
 
@@ -119,7 +121,7 @@ Below is the Entity Relationship Diagram (ERD).
 
 # Final Deliverable Tableau Story
 
-The JBmart company-wide town hall presentation walks through the insights and lessons above can be found [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). Some extracts are presented below for easy reference. 
+The JBmart company-wide town hall presentation walks through the insights and lessons above can be found 👉 [here](https://public.tableau.com/app/profile/kai.xiang.chiew/viz/JBmartCompany-WideTownHallWhatcanwelearnfromCovid/Story1). Some extracts are presented below for easy reference. 
 
 ![presentatation_title_tableau_story](https://github.com/user-attachments/assets/1ec2f40d-a1f4-42e1-8aec-36c82ec36685)
 ![presentation_samsung_webcam_story](https://github.com/user-attachments/assets/00e14aa6-1a0d-4087-966c-032586a30416)
